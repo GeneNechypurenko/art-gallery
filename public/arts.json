@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "title": "Joan of Arc",
+      "year": 1879,
+      "artist": "Jules Bastien-Lepage",
+      "museum": "Metropolitan Museum of Art",
+      "image": "BastienLepage_Jules_Joan_Of_Arc.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Haymaking",
+      "year": 1877,
+      "artist": "Jules Bastien-Lepage",
+      "museum": "Musée dOrsay",
+      "image": "Jules_Bastien-Lepage_-_Hay_making.jpg"
+    },
+    {
+      "id": 3,
+      "title": "October",
+      "year": 1878,
+      "artist": "Jules Bastien-Lepage",
+      "museum": "National Gallery of Victoria",
+      "image": "Jules_Bastien-Lepage_-_October.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Harvest Time",
+      "year": 1880,
+      "artist": "Jules Bastien-Lepage",
+      "museum": "National Gallery of Victoria",
+      "image": "Jules_Bastien-Lepage_At_Harvest_Time.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Young Girl",
+      "year": 1881,
+      "artist": "Jules Bastien-Lepage",
+      "museum": "Musée dOrsay",
+      "image": "BastianLepage-YoungGirl.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Pauvre Fauvette",
+      "year": 1881,
+      "artist": "Jules Bastien-Lepage",
+      "museum": "Musée dOrsay",
+      "image": "Bastien-Lepage-Jules_-_Pauvre_Fauvette_1881.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Pas Mèche",
+      "year": 1882,
+      "artist": "Jules Bastien-Lepage",
+      "museum": "Scottish National Gallery",
+      "image": "Jules_Bastien-Lepage_-_Pas_Meche.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Going to School",
+      "year": 1882,
+      "artist": "Jules Bastien-Lepage",
+      "museum": "Aberdeen Art Gallery",
+      "image": "Going_to_School_-_Jules_Bastien-Lepage.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Maternal Admiration",
+      "year": 1869,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "William-Adolphe_Bouguereau_-_Maternal_Admiration.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Pleasant Burden",
+      "year": 1895,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "William-Adolphe_Bouguereau_-_Not_Too_Much_To_Carry.jpg"
+    },
+    {
+      "id": 11,
+      "title": "The Haymaker",
+      "year": 1869,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "William-Adolphe_Bouguereau_-_The_Haymaker.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Brother and Sister",
+      "year": 1871,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "Breton_Brother_and_Sister.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Italian Girl",
+      "year": 1871,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "William-Adolphe_Bouguereau_-_Italian_Girl_Drawing_Water.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Charity",
+      "year": 1878,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "William-Adolphe_Bouguereau_-_Charity.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Against Eros",
+      "year": 1880,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "William-Adolphe_Bouguereau_-_A_Young_Girl_Defending_Herself_Against_Eros.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Flagellation",
+      "year": 1880,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "William-Adolphe_Bouguereau_-_The_Flagellation_of_Our_Lord_Jesus_Christ.jpg"
+    },
+    {
+      "id": 17,
+      "title": "The Shepherdess",
+      "year": 1889,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "William-Adolphe_Bouguereau_-_The_Shepherdess.jpg"
+    },
+    {
+      "id": 18,
+      "title": "La Vierge au lys",
+      "year": 1899,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "La_Vierge_au_lys.jpg"
+    },
+    {
+      "id": 19,
+      "title": "The Bohemian",
+      "year": 1890,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "William-Adolphe_Bouguereau_-_The_Bohemian.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Bacchante",
+      "year": 1894,
+      "artist": "William-Adolphe Bouguereau",
+      "museum": "Memphis Brooks Museum of Art",
+      "image": "William-Adolphe_Bouguereau_-_Bacchante.jpg"
+    }
+  ]
+  

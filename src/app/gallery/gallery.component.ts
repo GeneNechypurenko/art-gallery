@@ -24,13 +24,22 @@ export class GalleryComponent implements OnInit {
   constructor(private artService: ArtService, private logService: LogService) { }
 
   ngOnInit() {
-    this.total = this.artService.getTotal();
+    this.getTotalArts();
     this.updateGallery();
   }
 
+  getTotalArts() {
+    this.artService.getTotal().subscribe(total => {
+      this.total = total;
+      this.logService.log(`${this.getTotalArts.name}: Total arts count: ${this.total}`);
+    });
+  }
+
   updateGallery() {
-    this.arts = this.artService.getArts(this.currentPage, this.pageSize);
-    this.logService.log(`${this.updateGallery.name}: ${this.currentPage}`);
+    this.artService.getArts(this.currentPage, this.pageSize).subscribe(arts => {
+      this.arts = arts;
+      this.logService.log(`${this.updateGallery.name}: Loaded ${arts.length} arts for page ${this.currentPage}`);
+    });
   }
 
   prev() {
@@ -51,7 +60,7 @@ export class GalleryComponent implements OnInit {
 
   onSelect(art: Art) {
     this.selectedArt = art;
-    this.logService.log(`${this.onSelect.name}: ${art.id}) ${art.title}`);
+    this.logService.log(`${this.onSelect.name}: Selected art: ${art.id}) ${art.title}`);
   }
 
   closeDetails() {
