@@ -1,0 +1,30 @@
+<section class="gallery">
+  <i class="fa-solid fa-circle-chevron-left fa-2xl" style="color: #000000;" style="cursor: pointer;"
+    (click)="prev()"></i>
+  <mat-card *ngFor="let art of arts" class="card" style="cursor: pointer;" appearance="outlined"
+    (click)="onSelect(art)">
+    <mat-card-content>
+      <h2>{{art.title}}</h2>
+    </mat-card-content>
+    <img class="thumb" [src]="art.imageUrl" [alt]="art.title" />
+    <mat-card-content>
+      <p style="font-style: italic; font-weight: bold;">{{art.author}}</p>
+    </mat-card-content>
+  </mat-card>
+  <i class="fa-solid fa-circle-chevron-right fa-2xl" style="color: #000000;" style="cursor: pointer;"
+    (click)="next()"></i>
+</section>
+
+<div class="overlay" *ngIf="selectedArt" (click)="closeDetails()"></div>
+
+<div class="modal-content" *ngIf="selectedArt" [ngStyle]="{'background-image': 'url(' + selectedArt.imageUrl + ')'}">
+  <span class="close" (click)="closeDetails()">
+    <i class="fa-solid fa-circle-xmark" style="color: #000000;"></i>
+  </span>
+  <div class="modal-details">
+    <h2>{{ selectedArt.title }}</h2>
+    <h3 style="font-style: italic;">{{ selectedArt.author }}</h3>
+    <p>{{ selectedArt.year }}</p>
+    <p>{{ selectedArt.location }}</p>
+  </div>
+</div>

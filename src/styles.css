@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #F7F7F7;
+}
+
+header {
+    height: 300px;
+    background-image: url('../public/header.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1rem solid #ffffff;
+}
+
+div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1 {
+    height: 33.3333%;
+    font-size: 90px;
+    color: #252525;
+}
